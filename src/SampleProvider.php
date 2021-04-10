@@ -25,6 +25,8 @@ class SampleProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__.'/../config/sample.php' => config_path('sample.php')
+        ], 'config');
     }
 }

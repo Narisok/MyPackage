@@ -1,0 +1,20 @@
+{
+    "name": "narisok/my_package",
+    "description": "desc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew the Cat",
+            "email": "dimedrov123@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Narisok\\MyPackage\\": "src/"
+        }
+    },
+    "require": {}
+}
